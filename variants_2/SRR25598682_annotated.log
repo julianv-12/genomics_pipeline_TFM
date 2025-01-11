@@ -1,0 +1,11 @@
+ANNOVAR Version:
+	$Date: 2020-06-07 23:56:37 -0400 (Sun,  7 Jun 2020) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/TFM/annovar/annotate_variation.pl --buildver hg38 --geneanno --outfile /TFM/variants_2/SRR25598682_annotated /TFM/variants_2/SRR25598682_variants.vcf /TFM/annovar/humandb/
+ANNOVAR Started:
+	Sun Dec 22 00:23:47 2024
+NOTICE: Output files are written to /TFM/variants_2/SRR25598682_annotated.variant_function, /TFM/variants_2/SRR25598682_annotated.exonic_variant_function
+NOTICE: Reading gene annotation from /TFM/annovar/humandb/hg38_refGene.txt ... Done with 88819 transcripts (including 21511 without coding sequence annotation) for 28307 unique genes
+NOTICE: Variants with invalid input format are written to /TFM/variants_2/SRR25598682_annotated.invalid_input
