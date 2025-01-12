@@ -41,3 +41,29 @@ Para realizar el alineamiento y el llamado de variantes, necesitas el genoma hum
    ```bash
    git clone https://github.com/julianv-12/genomics_pipeline_TFM.git
    cd genomics_pipeline_TFM
+
+## Estructura del Proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+genomics_pipeline_TFM/
+├── aligned_2/             # Archivos alineados
+├── normalized_2/          # Lecturas normalizadas
+├── fastqc_results_2/      # Resultados de FastQC
+├── variants_2/            # Variantes detectadas
+├── trimmomatic_results_2/ # Resultados de Trimmomatic
+├── fastq_2/               # Lecturas preprocesadas
+├── genomics_pipeline.nf   # Pipeline principal
+├── tools.sh               # Script auxiliar de instalación de herramientas
+└── README.md              # Documentación del proyecto
+
+## Ejecucion del pipelline
+nextflow run genomics_pipeline.nf
+
+
+### Notas sobre la estructura
+
+- Cada carpeta contiene resultados generados por diferentes herramientas.
+- El archivo `genomics_pipeline.nf` es el pipeline principal que puedes ejecutar con Nextflow.
+- `tools.sh` incluye comandos útiles para instalar las herramientas necesarias.
+
